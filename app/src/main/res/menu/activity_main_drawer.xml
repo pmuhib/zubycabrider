@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/bookings"
+            android:icon="@drawable/bookings"
+            android:title="Bookings" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/payment"
+            android:title="Payments" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/contact"
+            android:title="Refer &amp; Earn" />
+        <item
+            android:id="@+id/promotion"
+            android:icon="@drawable/contact"
+            android:title="Promotions" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/legal"
+            android:icon="@drawable/legal"
+            android:title="Legal" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/logout"
+                android:title="Help" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
